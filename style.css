@@ -1,0 +1,462 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+header{
+    width: 100%;
+    background: black;
+    display: flex;
+    
+}
+
+.header_logo{
+    text-transform: uppercase;
+    color:white;
+    font-weight: 800;
+    font-size: 24px;
+    cursor:pointer;  
+    margin-left: 12%;
+    margin-top: 57px;
+}
+
+nav{
+    margin-left: 29%;
+    margin-top: 57px;
+}
+
+
+p{
+    margin: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main_welcome{
+    padding: 200px 0px 410px 0px;
+    text-align: center;
+    background-color: black;
+}
+
+.main_welcome p {
+    color: #999999;
+    font-size: 20px;
+}
+
+.main_welcome h1{
+    font-size: 44px;
+    color :#999999;
+}
+
+
+.main_welcome .mycompany{
+    color :#fcac45;
+    font-size: 44px;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+
+main .main_about{
+    display: flex;
+    padding: 100px 0 100px 0;
+}
+
+.about_right{
+    margin-left: 105px;
+}
+
+.about_right h1
+{
+    display: inline-block;
+    border-bottom: 3px solid #fcac45;
+    padding-bottom: 20px;
+}
+
+.about_right p {
+    margin: 30px 0 50px 0;
+}
+
+.about_right ul{
+    margin: 0;
+    padding: 0;
+}
+
+.about_right li{
+    background: url(imgs/point.png) 0px no-repeat;
+    font-size: 13px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+
+.mw-100{
+   min-width: 100%; 
+}
+
+.topnav a{
+    color: white;
+    text-align: center;
+    padding-bottom:12px ;
+    padding :10px 18px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.topnav a:hover{
+    border-bottom: 3px solid #fcac45;
+}
+
+.services_cards{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 20px;
+}
+
+.main_clients{
+    background: black;
+    padding: 100px 0 205px 0;
+    color : white;
+    text-align: center;
+}
+
+.main_clients h1 {
+    margin-bottom: 20px;
+}
+
+.main_clients img {
+    margin-left: 30px;
+}
+
+.main_testimonials{
+    background: black;
+    text-align: center;
+    color :white;
+    padding-bottom:  170px;
+}
+
+.main_testimonials .boss{
+    margin-top: 40px;
+}
+
+
+.main_testimonials h1{
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.main_testimonials p{
+    text-transform: uppercase; 
+}
+
+
+.main_works{
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.works{
+    margin-top: 185px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 30px;
+  
+}
+
+.main_works h1{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.main_works p{
+    
+   font-size:  14px;
+}
+
+.main_works img{
+    width: 230px;
+    height: 230px;
+}
+
+.contact_form{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.contact_form h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.contact_form p{
+    color:black;
+}
+
+
+.contact_wrapper{
+    width: 753px;
+    margin: 0  auto;
+    color:gray;
+}
+
+.red{
+    color:red;
+}
+
+input{
+    
+    width: 360px;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+input:first-of-type{
+    margin-right: 33px;
+}
+
+form{
+    text-align: left;
+}
+
+.form_inputs{
+    text-align: left;
+    display: flex;
+    margin-top: 100px;
+}
+
+.button_block{
+    display: flex;
+    justify-content: flex-end;
+}
+
+textarea{
+    width: 100%;
+    height: 163px;
+}
+
+input,textarea{
+    border: 1px solid #999999;
+}
+
+input[type=submit]{
+    width: 165px;  
+    height: 40px;
+    background: royalblue;
+    color: wheat;
+    margin-right: 0;
+    margin-top: 20px;
+}
+
+
+footer{
+    width: 100%;
+    height: auto;
+    background: #222222;
+    padding: 30px 0 30px 0;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+}
+
+.social img{
+    margin-left: 12px;
+}
+
+.social img:hover{
+    opacity: 0.7;
+}
+
+@media (max-width: 1200px){
+    nav{
+        margin-left: 20%;
+    }
+}
+
+
+@media (max-width: 1000px){
+    nav{
+        margin-left: 10%;
+    }
+}
+
+
+@media (max-width: 900px){
+   .topnav a{
+    display: none;
+   } 
+   .topnav a.icon{
+       float: right;
+       margin-top: -15px;
+       color: white;
+       display: block;
+       font-size: 22px;
+   }
+
+   nav{
+       width: 100%;
+   }
+
+   .topnav.responsive{
+       position: relative;
+       top:50px;
+       left: -200px;
+       
+   }
+   header .topnav.responsive{
+       height: 340px;
+   }
+
+   .topnav.responsive a.icon{
+       position: absolute;
+       top:-50px;
+       right: -200px;
+   }
+
+   .topnav.responsive a{
+       float: none;
+       display: block;
+       text-align: left;
+   }
+
+   main .main_welcome{
+       padding : 50px 0 50px 0;
+   }
+
+   main .main_welcome p{
+    font-size: 14px;
+    }
+    main .main_welcome h1{
+        font-size: 25px;
+        }
+    .mw-100{
+        max-width: 100%;
+    }
+    .main_about{
+        flex-direction: column;
+    }
+    .about_right{
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .about_right li{
+        text-align: left;
+    }
+
+    .about_right h1{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .team_cards{
+        flex-direction: column;
+    }
+
+    .services_cards{          
+        grid-template-columns: auto;
+    }
+}
+
+
+
+.main_team{
+    background: black;
+    text-align: center;
+    padding: 100px 0 165px 0;
+    color: white;
+    
+}
+
+.main_team h1{
+    font-size:  44px;
+    padding-bottom:  30px;
+}
+
+.line{
+    width: 100px;
+    position: relative;
+    background: #fcac45;
+    height: 3px;
+    left: 45.5%;
+    margin-bottom: 85px;
+}
+
+.photo{
+    background: #d7d7d7;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin :20px auto;
+}
+
+.team_cards{
+    display: flex;
+}
+
+.card{
+    margin: 0 20px;
+}
+
+.team_cards .name{
+    margin-bottom: 7px;
+}
+
+.team_cards .positon{
+    margin-bottom: 40px;
+
+}
+
+.team_cards .about_position{
+    font-size: 14px;
+}
+
+
+
+.main_servises h1{
+    text-align: center;
+    padding: 100px 0 30px 0;
+}
+.main_servises p{
+   margin-bottom: 100px;
+}
+
+.services_cards h4{
+    margin-top: 20px;
+}
+
+
+.services_cards p{
+    margin-top: 20px;
+}
